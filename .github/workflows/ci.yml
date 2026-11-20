@@ -1,0 +1,9 @@
+name : day6-ci
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI is working" 
